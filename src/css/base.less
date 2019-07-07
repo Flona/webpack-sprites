@@ -1,0 +1,42 @@
+@import  "./spritesmith-generated/sprite.less";
+@bgColor: rgb(228, 218, 220);
+
+body {
+    background-color: @bgColor;
+    transform: translate(0)
+}
+#root {
+    width: 400px;
+    height: 400px;
+    background-image: url("../assets/image/huisexingxing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 20px;
+    img {
+        width: 100px;
+        height: 100px;
+        float: left
+    }
+    .img {
+        width: 100px;
+        height: 100px;
+        float: left
+    }
+    .img1 {
+        background-image: url("../assets/image/sp/sp1/china@2x.png")
+        // .retina-sprite(@china-group)
+    }
+    .img2 {
+        background-image: url("../assets/image/sp/sp1/japan@2x.png")
+        // .retina-sprite(@japan-group)
+    }
+    .img3 {
+        background-image: url("../assets/image/sp/sp2/korea@2x.png")
+        // .retina-sprite(@korea-group)
+    }
+    .img4 {
+        background-image: url("../assets/image/sp/sp2/taiwan@2x.png")
+        // .retina-sprite(@taiwan-group)
+    }
+}
