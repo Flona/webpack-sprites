@@ -44,7 +44,7 @@ pro.then((res)=>{
 })
 
 // js中引用的图片不会走postcss-sprites插件
-import img from './assets/image/sp/sp2/us@2x.png'
+import img from './assets/image/sp/sp2/27.png'
 const image = new Image()
 image.src = img
 document.getElementById('root').appendChild(image)
